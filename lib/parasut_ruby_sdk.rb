@@ -14,6 +14,7 @@ require 'parasut_ruby_sdk/rest/errors'
 require 'parasut_ruby_sdk/rest/parasut'
 require 'parasut_ruby_sdk/rest/product'
 require 'parasut_ruby_sdk/rest/sales_invoice'
+require 'parasut_ruby_sdk/rest/transaction'
 
 include ParasutRubySdk::Helpers::DataHelper
 

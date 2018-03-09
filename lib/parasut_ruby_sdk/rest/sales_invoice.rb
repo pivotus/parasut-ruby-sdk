@@ -32,7 +32,7 @@ module ParasutRubySdk
       end
 
       def create_payments ( id, params)
-        prepare_request( Util::RequestType::POST, "#{@resource}/#{id}/payments", params)
+        prepare_request( Util::RequestType::POST, "#{@resource}/#{id}/payments?include=transaction", params)
       end
 
       def get_e_document_type( id )
